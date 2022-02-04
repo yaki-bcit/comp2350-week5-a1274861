@@ -7,7 +7,8 @@ const dbConfigHeroku = {
 	user: "hg6xquebt4r8kt3f",
 	password: "sc47n46n3y3udmm3",
 	database: "cn574hwk3bs93evy",
-	multipleStatements: false
+	multipleStatements: false,
+	reconnect: true
 };
 
 const dbConfigLocal = {
